@@ -39,7 +39,7 @@ export class Search extends Component {
 					onChange={this.onChange}/>
 					<input type="submit" value="Search" className="btn btn-dark btn-block" />
 				</form>
-				{this.showClear && <button className="btn btn-light btn-block" onClick={this.clearUsers}>Clear</button>}
+				{showClear && <button className="btn btn-light btn-block" onClick={clearUsers}>Clear</button>}
 			</div>
 		)
 	}
